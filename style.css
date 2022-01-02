@@ -1,0 +1,103 @@
+*{
+  transition: 0.4s ease-in-out;
+}
+:root{
+  --primary-dark:hsla(160,100%,50%,1);
+  --primary-light: hsla(160,60%,50%,0.4);
+  --primary-lighter: hsla(160,60%,50%,0.1);
+  --white: #fff;
+  --off-white:#f0f0f0;
+}
+.card{
+  border: none;
+  cursor: pointer;
+}
+.btn-success{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 100rem;
+}
+a{
+  text-decoration: none;
+}
+/*=================  Navbar Area    =====================*/
+.navbar-brand img{
+  height: 50px;
+}
+.navbar-collapse{
+  flex-grow: 0;
+}
+/*=================  Hero Area    =====================*/
+.hero-outer{
+  background-color: var(--primary-light);
+}
+.hero-outer .title{
+  font-size: 3.5rem;
+}
+/*=================  Content    =====================*/
+.content-outer{
+  background-color: var(--off-white);
+  padding: 5rem 0;
+}
+/*=================  Catagories    =====================*/
+.catagories{
+  margin-bottom: 3rem;
+}
+.catagories .card{
+  background-color: var(--primary-lighter);
+  padding: 2rem 0;
+  margin: 1rem 0;
+}
+.catagories .card:hover{
+  background-color: var(--white);
+  box-shadow: 0 0 20px 0px #ccc;
+}
+.catagories .col-3 img{
+  height: 80px;
+}
+/*=================    Courses    =====================*/
+.courses .card{
+  box-shadow: 0 0 10px 0 #ccc;
+  border-radius: 0.8rem;
+}
+.courses .card:hover{
+  box-shadow: 0 0 20px 0 #777;
+  transform: scale(1.02);
+}
+.courses .card-title,.courses .card-subtitle{
+  margin-top: .5rem;
+}
+.courses .btn{
+  margin: 2rem 0;
+}
+.courses .date img{
+  height: 1.5rem;
+}
+/*=================    Testimonial  =====================*/
+.testimonial .row{
+  justify-content: center;
+  gap: 5rem;
+}
+.testimonial .col-8{
+  align-items: center;
+}
+.testimonial img{
+  height: 6rem;
+}
+.testimonial p{
+  margin-left: 1rem;
+}
+/*=================    Testimonial  =====================*/
+.footer{
+  /* height: 300px; */
+}
+.footer ul{
+  list-style: none;
+  padding: 0;
+}
+.footer ul a{
+  text-decoration: none;
+}
+.footer ul a:hover{
+  margin-left: 0.3rem;
+}
